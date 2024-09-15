@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+margin: 0;
+background-color: #C5C5F8;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+
+  width: 1103px;
+  height: 765px;
+  background-color: white;
+  border-radius: 36px;
+  box-shadow: rgba(251, 132, 132, 0.25) 0px 50px 100px -20px, rgba(251, 132, 132, 0.25) 0px 30px 60px -30px;
+  
+}
+
+.topbar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px 150px 0 150px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+}
+.search-input{
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='27' height='27' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14'/%3E%3C/svg%3E");
+
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: 10px center; /* Position the icon */
+  background-size: 20px 20px; /* Adjust the size of the icon */
+
+  height: 40px;
+  
+  box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+
+  border: #C5C5F8 1px solid;
+  border-radius: 8px;
+  padding: 16px 16px 16px 40px;
+  outline: none;
+}
+
+.topbar-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.profile-image{
+  width: 72px;
+  height: 72px;
+  background-color: #8598FC; 
+  color: white; 
+  font-size: 32px; 
+  text-align: center; 
+  line-height: 72px;
+  border-radius: 50%; 
+  display: inline-block; 
+  cursor: pointer;
+
+}
+
+
+.notification-icon{
+
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+/* down bar css */
+
+.DownBar-container{
+  padding: 15px 150px 0 150px;
+  color: #0E0D46;
+
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+
+
+}
+
+/* accounts */
+.ac-container-main{
+ 
+  height: 112px;
+  padding-top: 10px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+
+
+}
+
+.ac-container-main:hover{
+  background-color: #FAF2FE;
+  border-radius: 24px;
+
+}
+.ac-container{
+  display: flex;
+  
+  align-items: center;
+  
+
+}
+.img-div{
+  border-radius: 50%;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.account-img{
+
+  width: 41px;
+  height: 38px;
+
+}
+
+.disc-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  text-decoration: ltr;
+  
+}
+
+.number-div{
+  margin: 0 auto 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal; 
+
+}
+
+.dots-icon{
+  margin-right: 30px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+}
+
+.icon-div{
+
+
+
+}
